@@ -1,0 +1,14 @@
+services:
+  flask-app:
+    image: gabrielpolo05/flask-gestion-examen:latest
+    build: .
+    ports:
+      - "5000:5000"
+    volumes:
+      - sqlite_data:/sqlite3-db
+    environment:
+      - SECRET_KEY=clave-secreta-para-flask
+    restart: unless-stopped
+
+volumes:
+  sqlite_data:

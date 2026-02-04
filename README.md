@@ -1,3 +1,3 @@
 ## Práctica 6.3. Github y Git
 
-#### Gabriel Polo Merlo
+### Gabriel Polo Merlo
