@@ -57,3 +57,4 @@ jobs:
             
             echo "Despliegue completado"
             docker ps
+        

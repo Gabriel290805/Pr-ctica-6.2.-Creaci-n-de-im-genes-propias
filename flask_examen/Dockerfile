@@ -17,3 +17,4 @@ RUN mkdir -p /sqlite3-db && chmod 777 /sqlite3-db
 EXPOSE 5000
 
 CMD ["python", "app.py"]
+
